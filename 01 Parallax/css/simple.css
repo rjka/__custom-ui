@@ -1,0 +1,54 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth; /*animation: smoothly scroll when you click section links*/
+}
+
+
+/* ----------- FIRST OPTION -----------*/
+
+/* .main{
+    position: relative;
+}
+
+.main .section {
+    height: 100vh;
+}
+
+.main #section1{
+    background: blue;
+}
+.main #section2{
+    background: green;
+}
+.main #section3{
+    background: red;
+}
+.main #section4{
+    background: yellow;
+} */
+
+/* ----------------------------------- */
+
+
+/* ----------- SECOND OPTION -----------*/
+
+.main{
+    display: grid;
+    grid-auto-rows: 100vh;
+}
+
+.main #section1{
+    background: blue;
+}
+.main #section2{
+    background: green;
+}
+.main #section3{
+    background: red;
+}
+.main #section4{
+    background: yellow;
+}
+
+/* ----------------------------------- */
